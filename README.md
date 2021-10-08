@@ -10,7 +10,7 @@
     <b><li>GET MATCHES INFO</li></b>
     <b><li>GET PLAYERS INFO</li></b>
   </ul>
-<div>
+</div>
   <div align="center">
     <img alt="MZM-photo2" style="border-radius:50px;" src="https://i.imgur.com/ECOlkom.png">
   </div>
@@ -21,14 +21,13 @@
     <b><li>GET FANTASY POINTS FROM PLAYER</li></b>
     <b><li>IMPROVED INTERFACE DESIGN</li></b>
   </ul>
-<div>
+</div>
   
   <div>
   <div align="center">
     <img alt="MZM-photo3" style="border-radius:50px;" src="https://i.imgur.com/Qa3THEg.png">
   </div>
-    
-     <div>
+  <br>
        <b><p>© MiZaMo - mzafram2001 - Miguel Zafra</p></b>
-<div>
+  </div>
 
