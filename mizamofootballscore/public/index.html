@@ -1,0 +1,108 @@
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiZaMoFootballScore - LaLiga</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/min/football.min.js"></script>
+    <link rel="stylesheet" href="css/min/football.min.css">
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="img/LaLiga.svg" />
+</head>
+
+<body>
+    <div class="container" style="text-align: center;">
+        <div class="form">
+            <form>
+                <img class="icon" src="../img/LaLiga.svg" width="150px" height="150px">
+                <div style="text-align: center;">
+                    <div id="standing" style="overflow-x:auto;"></div>
+                    <br>
+                    <div class="dropdown">
+                        <button class="drop btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Select Matchday
+                        </button>
+                        <div class="dropdown-menu dropdown-scrollbar" aria-labelledby="dropdownMenuButton"
+                            style="background-color: #f3f5f9; color: #1c2a38;">
+                            <a class="generate dropdown-item" value="1">Matchday 1</a>
+                            <a class="generate dropdown-item" value="2">Matchday 2</a>
+                            <a class="generate dropdown-item" value="3">Matchday 3</a>
+                            <a class="generate dropdown-item" value="4">Matchday 4</a>
+                            <a class="generate dropdown-item" value="5">Matchday 5</a>
+                            <a class="generate dropdown-item" value="6">Matchday 6</a>
+                            <a class="generate dropdown-item" value="7">Matchday 7</a>
+                            <a class="generate dropdown-item" value="8">Matchday 8</a>
+                            <a class="generate dropdown-item" value="9">Matchday 9</a>
+                            <a class="generate dropdown-item" value="10">Matchday 10</a>
+
+                            <a class="generate dropdown-item" value="11">Matchday 11</a>
+                            <a class="generate dropdown-item" value="12">Matchday 12</a>
+                            <a class="generate dropdown-item" value="13">Matchday 13</a>
+                            <a class="generate dropdown-item" value="14">Matchday 14</a>
+                            <a class="generate dropdown-item" value="15">Matchday 15</a>
+                            <a class="generate dropdown-item" value="16">Matchday 16</a>
+                            <a class="generate dropdown-item" value="17">Matchday 17</a>
+                            <a class="generate dropdown-item" value="19">Matchday 18</a>
+                            <a class="generate dropdown-item" value="19">Matchday 19</a>
+                            <a class="generate dropdown-item" value="20">Matchday 20</a>
+
+                            <a class="generate dropdown-item" value="21">Matchday 21</a>
+                            <a class="generate dropdown-item" value="21">Matchday 22</a>
+                            <a class="generate dropdown-item" value="23">Matchday 23</a>
+                            <a class="generate dropdown-item" value="24">Matchday 24</a>
+                            <a class="generate dropdown-item" value="25">Matchday 25</a>
+                            <a class="generate dropdown-item" value="26">Matchday 26</a>
+                            <a class="generate dropdown-item" value="27">Matchday 27</a>
+                            <a class="generate dropdown-item" value="29">Matchday 28</a>
+                            <a class="generate dropdown-item" value="29">Matchday 29</a>
+                            <a class="generate dropdown-item" value="30">Matchday 30</a>
+
+                            <a class="generate dropdown-item" value="31">Matchday 31</a>
+                            <a class="generate dropdown-item" value="32">Matchday 32</a>
+                            <a class="generate dropdown-item" value="33">Matchday 33</a>
+                            <a class="generate dropdown-item" value="34">Matchday 34</a>
+                            <a class="generate dropdown-item" value="35">Matchday 35</a>
+                            <a class="generate dropdown-item" value="36">Matchday 36</a>
+                            <a class="generate dropdown-item" value="37">Matchday 37</a>
+                            <a class="generate dropdown-item" value="38">Matchday 38</a>
+                        </div>
+                    </div>
+                    <br>
+                    <div id="match" style="overflow-x:auto;"></div>
+                    <div class="Drawer js-drawer" style="overflow-y: auto;" hidden>
+                        <div class="card">
+                            <button type="button" class="btn btn-light info-close"><i class='fas fa-times'></i></button>
+                            <form>
+                                <div id="matchCard" class="card-body">
+                                    This is some text within a card body.
+                                </div>
+                                <div class="squadTables" class="row">
+                                    <div id="squadAway" class="col-md-6 col-xs-8" style="overflow-x:auto; overflow-y:auto; margin-top: 2%;"></div>
+                                    <div id="squadHome" class="col-md-6 col-xs-8" style="overflow-x:auto; overflow-y:auto; margin-top: 2%;"></div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+
+</html>
