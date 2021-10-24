@@ -9,7 +9,7 @@
     <b><li>GET STANDINGS</li></b>
     <b><li>GET MATCHES INFO</li></b>
     <b><li>GET PLAYERS INFO</li></b>
-    <b><li>GET PLAYERS MARKET VALUE</li></b>
+    <b><li>GET PLAYERS MARKET VALUE (ACTUALLY MANUAL)</li></b>
     <b><li>GET PLAYERS PHOTOS</li></b>
   </ul>
 </div>
@@ -22,6 +22,8 @@
     <b><li>IMPROVED INTERFACE DESIGN</li></b>
     <b><li>GET TRENDS(DOWN AND UP)</li></b>
     <b><li>FIX SOME BUGS LIKE REPEATEDLY IMAGES</li></b>
+    <b><li>GET TEAM INFO AND POTENTIAL LINE-UP</li></b>
+    <b><li>GET PLAYER MARKET VALUE HISTORIC</li></b>
   </ul>
 </div>
   
