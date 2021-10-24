@@ -21,6 +21,7 @@
   <ul>
     <b><li>IMPROVED INTERFACE DESIGN</li></b>
     <b><li>GET TRENDS(DOWN AND UP)</li></b>
+    <b><li>FIX SOME BUGS LIKE REPEATEDLY IMAGES</li></b>
   </ul>
 </div>
   
